@@ -9,7 +9,6 @@ array = array.map(function myFn(num){
 });
 
 console.log(array);
-
 //a better approach - 
 /*
 function add(num){
