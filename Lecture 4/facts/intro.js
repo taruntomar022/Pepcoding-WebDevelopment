@@ -1,4 +1,5 @@
 function lib(number){
+    
     for(let div = 0; div*div<=number ; div++){
         if(number%div == 0){
             console.log("Number is not prime");
