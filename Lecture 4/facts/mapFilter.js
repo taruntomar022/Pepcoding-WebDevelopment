@@ -25,7 +25,7 @@ function mymap(arr,cb){
 let result1 = mymap(arr,add);
 //similarly, you cand pass squarer method inside the callback instead of add which will return n*n;
 console.log(result1);
-// ***************************************************************
+// ************************************************************************************************
 //my filter
 
 function myfilter(arr,cb){
