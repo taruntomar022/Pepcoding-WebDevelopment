@@ -8,7 +8,6 @@ Array.prototype.sum = function(){
     return arrSum;
 }
 
-
 let sum = array.sum();
 console.log(sum);
 /*
