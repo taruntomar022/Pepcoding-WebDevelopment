@@ -29,6 +29,7 @@ let root = {
     ]
 }
 
+
 function viewGTree(node){
     let meNMyFamily = node.data + "=>" ;
     for(let i=0; i<node.children.length; i++){
