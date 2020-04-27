@@ -3,7 +3,7 @@ console.log("Before");
 console.log("start");
 //async way
 fs.readFile("f1.html",function(err,content){
-    if(err){
+    if(err){ 
         console.log(err);
     }else{
         console.log(content+"")
