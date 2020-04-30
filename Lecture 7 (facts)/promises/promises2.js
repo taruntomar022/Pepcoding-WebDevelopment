@@ -4,7 +4,7 @@ function promiseCreator(){
           reject(10);  
         }, 10000);
     })
-}
+} 
 let pPromise = promiseCreator();
 console.log("When I was pending");
 console.log(pPromise);
