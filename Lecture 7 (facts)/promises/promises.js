@@ -1,7 +1,7 @@
 let fs = require("fs");
 //promise based fn use=> promise => pending
 //paradigm
-//creator
+//creator 
 //resolve
 //reject
 function promisifyfs(path){
