@@ -25,7 +25,7 @@ function resolve1(data){
     console.log("scb of 2nd then ")
     console.log(data);
 
-}
+} 
 
 function reject1(err){
     console.log("Inside fcb of 2nd then")
