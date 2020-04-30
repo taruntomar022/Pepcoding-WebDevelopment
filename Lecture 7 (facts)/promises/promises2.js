@@ -5,7 +5,7 @@ function promiseCreator(){
         }, 10000);
     })
 } 
-let pPromise = promiseCreator();
+let pPromise = promiseCreator(); 
 console.log("When I was pending");
 console.log(pPromise);
 function resolve(data){
