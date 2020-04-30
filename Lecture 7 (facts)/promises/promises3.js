@@ -20,7 +20,7 @@ function reject(err){
     console.log(err);
 }
 
-
+ 
 const pPromiseFrom1stThen = pPromise.then(resolve,reject);
 console.log("pending received from then");
 console.log( pPromiseFrom1stThen);
