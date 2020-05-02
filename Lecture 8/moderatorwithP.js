@@ -4,7 +4,7 @@ let fs = require("fs");
 (async function(){
     let browser = await puppeteer.launch({
         headless : false,
-        defaultViewport : null,
+        defaultViewport : null, 
         slowMo : 100,
         args :["--start-maximized"]
     });
