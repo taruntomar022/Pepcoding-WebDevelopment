@@ -6,7 +6,7 @@ module.exports = [
     "Input Format": "Integer",
     "Constraints": "n <= 10 ^ 9",
     "Output Format": "String",
-    "Tags": "Basics",
+    "Tags": "Basics", 
     "Testcases": [
       {
         "Input": "7",
