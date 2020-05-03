@@ -2,7 +2,7 @@
 // nodejs => fs
 let fs = require("fs");
 console.log("Started executing file");
-console.log("CPU is stuck till file is read");
+console.log("CPU is stuck till file is read"); 
 // code stuck => nodejs => sync
 let content = fs.readFileSync("f1.mp4");
 //binary => array
