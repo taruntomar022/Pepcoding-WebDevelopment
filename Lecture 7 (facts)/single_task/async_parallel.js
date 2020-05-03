@@ -3,7 +3,7 @@
 // f2 -> read
 // serial => f1 => read , f2 => read
 let fs = require("fs");
-console.log("Started executing file");
+console.log("Started executing file"); 
 console.log("CPU is stuck till file is read");
 fs.readFile("../../f1.mp4",function cb(err,data){
     //console.log("printed file");
