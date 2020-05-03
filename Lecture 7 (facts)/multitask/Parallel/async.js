@@ -1,7 +1,7 @@
 // parallel
 // f1 => read 
 // f2 => read
-let fs = require("fs");
+let fs = require("fs"); 
 let request = require("request");
 console.time("task1");
 request("https://www.google.com", function (err, res, html) {
