@@ -23,7 +23,7 @@ let nPost = process.argv[4];
     await tab.goto(url, { waitUntil: "networkidle2" });
     await tab.waitForSelector("input[type=email]");
     await tab.type("input[type=email]", user, { delay: 120 });
-    await tab.type("input[type=password]", pwd, { delay: 120 });
+    await tab.type("input[type=password]", pwd, { delay: 120 }); 
     //  _1xnd => group of post 
     // _4-u2 _4-u8=> particular post
     //  inside ._1xnd
