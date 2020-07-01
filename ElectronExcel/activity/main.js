@@ -5,7 +5,7 @@
 // "main":"main.js" 
 // script => "start":"electron ."
 
-const electron = require("electron");
+const electron = require("electron"); 
 const app = electron.app;
 function createWindow(){
     const win = new electron.BrowserWindow({
